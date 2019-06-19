@@ -1,0 +1,145 @@
+X,Y,Name,description,altitudeMode,PKNRD,ADA,LINES,STATION_ID,POINT_Y,POINT_X,LONGNAME,ADDRESS,GTFS,Field_1
+-87.6258814744889,41.831678020726,35-Bronzeville-IIT,,clampToGround,No,ADA Accessible,Green Line,1120,1882047.587074,1177050.915136,35-Bronzeville-IIT,16 E. 35th Street,41120,35-Bronzeville-IIT
+-87.6592022794894,41.9936642600952,Granville,,clampToGround,No,ADA Accessible,Red Line,760,1941002.514489,1167506.039095,Granville,1119 W. Granville Avenue,40760,Granville
+-87.6532664500465,41.9360326017433,Wellington,,clampToGround,No,ADA Accessible,"Brown, Purple (Express)",1210,1920014.046245,1169286.335032,Wellington,945 W. Wellington Avenue,41210,Wellington
+-87.7519186259525,42.0389506924487,Dempster-Skokie,,clampToGround,Yes,ADA Accessible,Yellow Line,140,1957320.432456,1142189.799199,Dempster-Skokie,5001 W. Dempster Street,40140,Dempster-Skokie
+-87.6294400596467,41.8831644256275,Washington,,clampToGround,No,Not ADA  Accessible,Blue Line,370,1900801.153299,1175927.28403,Washington/Dearborn,19 N. Dearborn,40370,Washington
+-87.6885026059004,41.9662500472798,Western,,clampToGround,No,ADA Accessible,Brown Line,1480,1930951.297583,1159616.195119,Western-Ravenswood,4645 N. Western Avenue,41480,Western
+-87.6747361074464,41.9470286544391,Addison,,clampToGround,No,ADA Accessible,Brown Line,1440,1923975.429417,1163413.938227,Addison-Ravenswood,1818 W. Addison Street,41440,Addison
+-87.6786348843305,41.9664109718264,Damen,,clampToGround,No,ADA Accessible,Brown Line,90,1931030.290735,1162299.35493,Damen-Ravenswood,4643 N. Damen Avenue,40090,Damen
+-87.6317338343594,41.8768553341419,LaSalle/Van Buren,,clampToGround,No,Not ADA  Accessible,"Brown, Orange, Pink, Purple (Express)",160,1898497.010449,1175321.456958,LaSalle/Van Buren,121 W. Van Buren Street,40160,LaSalle/Van Buren
+-87.6274791177038,41.8740392431167,Harrison,,clampToGround,No,Not ADA  Accessible,Red Line,1490,1897480.330512,1176488.619071,Harrison,608 S. State Street,41490,Harrison
+-87.7937833517588,41.8869875206757,Oak Park,,clampToGround,No,Not ADA  Accessible,Green Line (Lake),1350,1901870.06722,1131166.009621,Oak Park-Lake,100 S. Oak Park Avenue,41350,Oak Park
+-87.6669509366128,41.8853113946418,Ashland,,clampToGround,No,ADA Accessible,"Green (Lake), Pink",170,1901501.956884,1165706.563893,Ashland-Lake,1601 W. Lake Street,40170,Ashland
+-87.6475783101525,41.8911892931299,Grand,,clampToGround,No,Not ADA  Accessible,Blue Line (O'Hare),490,1903685.42031,1170964.658746,Grand/Milwaukee,502 N. Milwaukee Avenue,40490,Grand
+-87.6774366544998,41.9097437915267,Damen,,clampToGround,No,Not ADA  Accessible,Blue Line,590,1910383.12246,1162783.21413,Damen/Milwaukee,1558 N. Damen Avenue,40590,Damen
+-87.7123593505734,41.9381316688411,Belmont,,clampToGround,No,Not ADA  Accessible,Blue Line,60,1920656.947494,1153202.401577,Belmont-O'Hare,3355 W. Belmont Avenue,40060,Belmont
+-87.7608922792759,41.9706341371842,Jefferson Park,,clampToGround,No,ADA Accessible,Blue Line,1280,1932409.028401,1139918.571549,Jefferson Park,4917 N. Milwaukee Avenue,41280,Jefferson Park
+-87.631025797101,41.8103381318748,47th,,clampToGround,No,ADA Accessible,Red Line,1230,1874259.92345,1175712.492862,47th-Dan Ryan,220 W. 47th Street,41230,47th
+-87.6058574174785,41.7803087668316,Cottage Grove,,clampToGround,No,ADA Accessible,Green Line,720,1863374.476528,1182666.518085,Cottage Grove,800 E. 63rd Street,40720,Cottage Grove
+-87.644023127218,41.7790278671835,Halsted,,clampToGround,No,ADA Accessible,Green Line,940,1862821.97016,1172260.636475,Halsted/63rd,6321 S. Halsted Street,40940,Halsted
+-87.6188261285835,41.8092088340794,47th,,clampToGround,No,ADA Accessible,Green Line,1080,1873875.82873,1179041.796929,47th-South Elevated,314 E. 47th Street,41080,47th
+-87.6610607008597,42.0010733586636,Loyola,,clampToGround,No,ADA Accessible,Red Line,1300,1943698.465339,1166979.645238,Loyola,1200 W. Loyola Avenue,41300,Loyola
+-87.6586684196959,41.977983991606,Berwyn,,clampToGround,No,Not ADA  Accessible,Red Line,340,1935289.679411,1167696.175159,Berwyn,1121 W. Berwyn Avenue,40340,Berwyn
+-87.6281763525623,41.8966712118909,Chicago,,clampToGround,No,ADA Accessible,Red Line,1450,1905725.849368,1176230.958143,Chicago/State,800 N. State Street,41450,Chicago
+-87.6393021645452,41.9104091793594,Sedgwick,,clampToGround,No,ADA Accessible,"Brown, Purple (Express)",800,1910707.2735,1173161.406268,Sedgwick,1536 N. Sedgwick Avenue,40800,Sedgwick
+-87.725624930077,41.873888723507,Pulaski,,clampToGround,No,Not ADA  Accessible,Blue Line (Congress),920,1897220.947728,1149758.983206,Pulaski-Congress,530 S. Pulaski Road,40920,Pulaski
+-87.8069608726502,41.8734900509645,Harlem,,clampToGround,No,Not ADA  Accessible,Blue Line (Congress),980,1896929.332495,1127608.009233,Harlem-Congress,701 S. Harlem Avenue,40980,Harlem
+-87.7059782953903,41.8744255080723,Kedzie-Homan,,clampToGround,No,ADA Accessible,Blue Line (Congress),250,1897455.047184,1155108.324907,Kedzie-Homan,530 S. Kedzie Avenue,40250,Kedzie-Homan
+-87.6276964595126,41.8807445578545,Monroe,,clampToGround,No,Not ADA  Accessible,Red Line,1090,1899923.25429,1176409.337151,Monroe/State,26 S. State,41090,Monroe
+-87.783661032938,41.8871593973278,Ridgeland,,clampToGround,No,Not ADA  Accessible,Green Line (Lake),610,1901950.19138,1133921.860375,Ridgeland,36 N. Ridgeland Avenue,40610,Ridgeland
+-87.6873643813982,41.9161574281936,Western,,clampToGround,No,ADA Accessible,Blue Line (O'Hare),670,1912699.74915,1160063.300144,Western/Milwaukee,1909 N. Western Avenue,40670,Western
+-87.6183241077998,41.7951766528338,Garfield,,clampToGround,Yes,ADA Accessible,Green Line,510,1868763.718133,1179221.195842,Garfield-South Elevated,320 E. Garfield Boulevard,40510,Garfield
+-87.6805873686258,41.8295600871101,35th/Archer,,clampToGround,Yes,ADA Accessible,Orange Line,120,1881157.786881,1162147.779122,35th/Archer,3528 S. Leavitt Street,40120,35th/Archer
+-87.7054279567006,41.8541305857269,Kedzie,,clampToGround,No,ADA Accessible,Pink,1040,1890060.721929,1155312.298795,Kedzie-Douglas,1944 S. Kedzie Avenue,41040,Kedzie
+-87.6496422307903,41.8755162082229,UIC-Halsted,,clampToGround,No,ADA Accessible,Blue Line,350,1897969.67528,1170448.200249,UIC-Halsted,430 S. Halsted Street,40350,UIC-Halsted
+-87.6317220754726,41.875567625013,LaSalle,,clampToGround,No,Not ADA  Accessible,Blue Line,1340,1898027.796753,1175328.495166,LaSalle,150 W. Congress Parkway,41340,LaSalle
+-87.652644306004,41.9182165671508,Armitage,,clampToGround,No,ADA Accessible,"Brown, Purple (Express)",660,1913523.191327,1169507.151161,Armitage,944 W. Armitage Avenue,40660,Armitage
+-87.7254037683182,41.885411978762,Pulaski,,clampToGround,No,ADA Accessible,Green Line (Lake),30,1901420.430356,1149789.473062,Pulaski-Lake,4000 W. Lake Street,40030,Pulaski
+-87.7165228329175,41.8849043788112,Conservatory,,clampToGround,No,ADA Accessible,Green Line (Lake),1670,1901252.718356,1152209.095208,Conservatory-Central Park,3631 W. Lake Street,41670,Conservatory
+-87.653625930771,41.9474279965308,Addison,,clampToGround,No,ADA Accessible,Red Line,1420,1924165.785385,1169155.598136,Addison-North Main,940 W. Addison Street,41420,Addison
+-87.6292956646373,41.8781825179321,Jackson,,clampToGround,No,ADA Accessible,Blue Line,70,1898986.072337,1175981.497151,Jackson/Dearborn,328 S. Dearborn,40070,Jackson
+-87.6783294160136,42.0276118476837,South Boulevard,,clampToGround,No,Not ADA  Accessible,"Purple Line, Evanston Express",840,1953332.902468,1162211.833138,South Boulevard,601 W. South Boulevard,40840,South Boulevard
+-87.6588402850595,41.9835042243168,Bryn Mawr,,clampToGround,No,Not ADA  Accessible,Red Line,1380,1937300.913461,1167633.603127,Bryn Mawr,1119 W. Bryn Mawr Avenue,41380,Bryn Mawr
+-87.6338535299314,41.8826950175612,Washington/Wells,,clampToGround,No,ADA Accessible,"Brown, Orange, Pink, Purple (Express)",730,1900620.274451,1174726.838845,Washington/Wells,100 N. Wells Street,40730,Washington/Wells
+-87.6260978998203,41.879510218435,Adams/Wabash,,clampToGround,No,Not ADA  Accessible,"Brown, Orange, Pink,  Purple (Express), Green",680,1899477.045266,1176848.366655,Adams/Wabash,201 S. Wabash Avenue,40680,Adams/Wabash
+-87.8031759871921,41.8868483025386,Harlem,,clampToGround,No,ADA Accessible,Green Line (Lake),20,1901803.395604,1128608.760338,Harlem-Lake,1 S. Harlem Avenue,40020,Harlem
+-87.6244147453835,41.7223759833053,95/Dan Ryan,,clampToGround,No,ADA Accessible,Red Line,450,1842222.005725,1177778.980672,95th/Dan Ryan,14 W. 95th Street,40450,95/Dan Ryan
+-87.6311691700312,41.7954182611776,Garfield,,clampToGround,No,ADA Accessible,Red Line,1170,1868822.887157,1175717.820478,Garfield-Dan Ryan,220 W. Garfield Boulevard,41170,Garfield
+-87.6190357812778,41.8164632219399,43rd,,clampToGround,No,ADA Accessible,Green Line,1270,1876518.81702,1178962.667585,43rd,314 E. 43rd Street,41270,43rd
+-87.729177265582,41.9529402607856,Irving Park,,clampToGround,No,Not ADA  Accessible,Blue Line,550,1926020.539691,1148588.588581,Irving Park-O'Hare,4131 W. Irving Park Road,40550,Irving Park
+-87.6293777004522,41.8807034602531,Monroe,,clampToGround,No,Not ADA  Accessible,Blue Line,790,1899904.518418,1175951.621183,Monroe/Dearborn,114 S. Dearborn,40790,Monroe
+-87.7131420353283,41.9679281505856,Kimball,,clampToGround,Yes,ADA Accessible,Brown Line,1290,1931513.337392,1152910.875945,Kimball,4755 N. Kimball Avenue,41290,Kimball
+-87.7088437925288,41.9660926060999,Kedzie,,clampToGround,No,ADA Accessible,Brown Line,1180,1930852.948271,1154084.662314,Kedzie-Ravenswood,4648 N. Kedzie Avenue,41180,Kedzie
+-87.6739458797182,41.8756354278311,Medical District,,clampToGround,No,ADA Accessible,Blue Line,810,1897961.331984,1163828.914995,Illinois Medical District,430 S. Damen Avenue,40810,Medical District
+-87.7767852692551,41.8708863928014,Austin,,clampToGround,No,Not ADA  Accessible,Blue Line,10,1896032.408335,1135832.541209,Austin-Congress,1050 S. Austin Blvd,40010,Austin
+-87.7085413860205,41.9297280413136,Logan Square,,clampToGround,No,ADA Accessible,Blue Line,1020,1917602.196771,1154263.501098,Logan Square,2620 N. Milwaukee Av,41020,Logan Square
+-87.6185015998759,41.8020915834062,51st,,clampToGround,No,ADA Accessible,Green Line,130,1871283.076344,1179151.842113,51st,314 E. 51st Street,40130,51st
+-87.6653116633286,41.8393558778558,Ashland,,clampToGround,No,ADA Accessible,Orange Line,1060,1884759.337732,1166283.243574,Ashland-Midway,3011 S. Ashland Avenue,41060,Ashland
+-87.6691601248801,41.8579077074938,18th,,clampToGround,No,ADA Accessible,Pink,830,1891511.434506,1165182.263348,18th,1710 W. 18th Street,40830,18th
+-87.6851792210598,41.8543968365631,Western,,clampToGround,No,ADA Accessible,Pink,740,1890198.732809,1160828.02104,Western-Douglas,2009 S. Western Avenue,40740,Western
+-87.6835429258684,42.04771009366,Davis,,clampToGround,No,ADA Accessible,"Purple Line, Evanston Express",50,1960646.079307,1160739.716144,Davis,1612 N. Benson Avenue,40050,Davis
+-87.8380259850477,41.98429405689,Cumberland,,clampToGround,Yes,ADA Accessible,Blue Line,230,1937256.045877,1118914.130697,Cumberland,5800 N. Cumberland Avenue,40230,Cumberland
+-87.6251783538493,41.7504123417925,79th,,clampToGround,No,ADA Accessible,Red Line,240,1852436.465894,1177486.458944,79th,15 W. 79th Street,40240,79th
+-87.9018484001366,41.9788767379411,O'Hare,,clampToGround,No,ADA Accessible,Blue Line,890,1935188.075315,1101572.003065,O'Hare Airport,1000 O'Hare Drive,40890,O'Hare
+-87.6533804879926,41.9397507452146,Belmont,,clampToGround,No,ADA Accessible,"Red, Brown, Purple (Express)",1320,1921368.701478,1169244.560184,Belmont-North Main,945 W. Belmont Avenue,41320,Belmont
+-87.6728924507902,42.0190632192358,Howard,,clampToGround,Yes,ADA Accessible,"Red, Yellow, Purple, Evanston Express",900,1950229.068353,1163713.080115,Howard,1649 W. Howard Street,40900,Howard
+-87.7549864942811,41.8871632256061,Laramie,,clampToGround,No,ADA Accessible,Green Line (Lake),700,1902002.904596,1141729.752607,Laramie,5148 W. Lake Street,40700,Laramie
+-87.765649505506,41.8873890135037,Central,,clampToGround,No,ADA Accessible,Green Line (Lake),280,1902065.7933,1138825.735196,Central-Lake,350 N. Central Avenue,40280,Central
+-87.6690921120182,42.0158761800097,Jarvis,,clampToGround,No,Not ADA  Accessible,Red Line,1190,1949075.678528,1164754.772276,Jarvis,1523 W. Jarvis Street,41190,Jarvis
+-87.6274023829473,41.8673676650746,Roosevelt,,clampToGround,No,ADA Accessible,Red Line,1400,1895049.388302,1176529.511231,Roosevelt/State,1167 S. State Street,41400,Roosevelt
+-87.6884345110455,41.8755295730401,Western,,clampToGround,No,Not ADA  Accessible,Blue Line (Congress),220,1897892.777744,1159883.322928,Western-Congress,430 S. Western Avenue,40220,Western
+-87.6695432279987,41.8715630033906,Polk,,clampToGround,No,ADA Accessible,Pink,1030,1896486.588943,1165039.424308,Polk,1713 W. Polk Street,41030,Polk
+-87.7451721779139,41.8716080495853,Cicero,,clampToGround,No,Not ADA  Accessible,Blue Line (Congress),970,1896352.789263,1144440.976673,Cicero-Congress,720 S. Cicero Avenue,40970,Cicero
+-87.7061554204948,41.8843210952809,Kedzie,,clampToGround,No,ADA Accessible,Green Line (Lake),1070,1901060.632339,1155033.734187,Kedzie-Lake,3200 W. Lake Street,41070,Kedzie
+-87.7043206657187,41.8043484078175,Kedzie,,clampToGround,Yes,ADA Accessible,Orange Line,1150,1871922.532344,1155746.785068,Kedzie-Midway,4900 S. Kedzie Avenue,41150,Kedzie
+-87.6531308571889,41.9327315000687,Diversey,,clampToGround,No,ADA Accessible,"Brown, Purple (Express)",530,1918811.409444,1169332.772152,Diversey,940 W. Diversey Avenue,40530,Diversey
+-87.6795379227105,42.0334557095775,Main,,clampToGround,No,Not ADA  Accessible,"Purple Line, Evanston Express",270,1955459.943238,1161867.215153,Main,836 N. Chicago Avenue,40270,Main
+-87.6590758588342,41.9902594930811,Thorndale,,clampToGround,No,Not ADA  Accessible,Red Line,880,1939762.067511,1167550.174263,Thorndale,1118 W. Thorndale Avenue,40880,Thorndale
+-87.6528658377562,41.9250513676515,Fullerton,,clampToGround,No,ADA Accessible,"Red, Brown, Purple (Express)",1220,1916013.325345,1169427.095096,Fullerton,943  W. Fullerton Avenue,41220,Fullerton
+-87.6816019866609,42.0416546437793,Dempster,,clampToGround,No,Not ADA  Accessible,"Purple Line, Evanston Express",690,1958443.428425,1161283.708209,Dempster,1316 N. Sherman Avenue,40690,Dempster
+-87.6359466570667,41.8967741708434,Chicago,,clampToGround,No,ADA Accessible,"Brown, Purple (Express)",710,1905746.075928,1174115.154493,Chicago/Franklin,300 W. Chicago Avenue,40710,Chicago
+-87.7016557325113,41.9661468949517,Francisco,,clampToGround,No,ADA Accessible,Brown Line,870,1930887.061551,1156039.372332,Francisco,4648 N. Francisco Avenue,40870,Francisco
+-87.6708839435792,41.9437091475925,Paulina,,clampToGround,No,ADA Accessible,Brown Line,1310,1922773.867048,1164471.229748,Paulina,3411 N. Paulina Street,41310,Paulina
+-87.6751653906362,41.9617517103718,Montrose,,clampToGround,No,ADA Accessible,Brown Line,1500,1929339.66571,1163255.951923,Montrose-Ravenswood,1814 W. Montrose Avenue,41500,Montrose
+-87.6278351806609,41.8857404098812,State/Lake,,clampToGround,No,Not ADA  Accessible,"Brown, Orange, Pink,  Purple (Express), Green",260,1901743.429396,1176356.594239,State/Lake,200 N. State Street,40260,State/Lake
+-87.6278133804459,41.8848088668975,Lake,,clampToGround,No,ADA Accessible,Red Line,1660,1901404.02434,1176365.321279,Lake/State,188 N. State,40260,Lake
+-87.7741352555228,41.8872927837687,Austin,,clampToGround,No,Not ADA  Accessible,Green Line (Lake),1260,1902015.55586,1136515.354138,Austin-Lake,351 N. Austin Blvd,41260,Austin
+-87.6417713041429,41.8857034227384,Clinton,,clampToGround,No,ADA Accessible,"Green (Lake), Pink",1160,1901699.061012,1172561.886779,Clinton-Lake,540 W. Lake Street,41160,Clinton
+-87.6552142791749,41.8960752364658,Chicago,,clampToGround,No,Not ADA  Accessible,Blue Line,1410,1905449.333527,1168871.484984,Chicago/Milwaukee,800 N. Milwaukee Avenue,41410,Chicago
+-87.6968897987879,41.9219391705646,California,,clampToGround,No,Not ADA  Accessible,Blue Line (O'Hare),570,1914787.239456,1157455.120685,California/Milwaukee,2211 N. California Avenue,40570,California
+-87.7436169743082,41.9614866321028,Montrose,,clampToGround,No,Not ADA  Accessible,Blue Line,1330,1929107.506477,1144639.346721,Montrose-O'Hare,4600 W. Montrose Avenue,41330,Montrose
+-87.6247530732494,41.7353712104378,87th,,clampToGround,No,ADA Accessible,Red Line,1430,1846956.573409,1177647.63808,87th,15 W. 87th Street,41430,87th
+-87.6306362951207,41.8311905592515,Sox-35th,,clampToGround,No,ADA Accessible,Red Line,190,1881859.322113,1175756.53587,Sox-35th-Dan Ryan,142 W. 35th Street,40190,Sox-35th
+-87.6155458835686,41.7801297157829,King Drive,,clampToGround,No,ADA Accessible,Green Line,1140,1863287.024624,1180024.55149,King Drive,400 E. 63rd Street,41140,King Drive
+-87.6638448484402,41.7789534047004,Ashland,,clampToGround,Yes,ADA Accessible,Green Line (Englewood),290,1862752.12184,1166854.40799,Ashland/63rd,6315 S. Ashland Avenue,40290,Ashland
+-87.6261887847323,41.8832200119988,Washington/Wabash,,clampToGround,No,ADA Accessible,"Brown, Orange, Pink,  Purple (Express), Green",1700,1900828.687635,1176812.477247,Washington/Wabash,29 N. Wabash,41700,Washington/Wabash
+-87.6265898870028,41.8674049586987,Roosevelt,,clampToGround,No,ADA Accessible,Orange & Green Lines,410,1895064.79899,1176750.705983,Roosevelt/Wabash,22 E. Roosevelt Road,<Null>,Roosevelt
+-87.6584929617363,41.9691389398775,Lawrence,,clampToGround,No,Not ADA  Accessible,Red Line,770,1932066.87544,1167769.274167,Lawrence,1117 W. Lawrence Avenue,40770,Lawrence
+-87.6491772668714,41.9106545796226,North/Clybourn,,clampToGround,No,Not ADA  Accessible,Red Line,650,1910775.102492,1170472.731193,North/Clybourn,1599 N. Clybourn Avenue,40650,North/Clybourn
+-87.6833368817125,42.0582824697314,Noyes,,clampToGround,No,Not ADA  Accessible,"Purple Line, Evanston Express",400,1964499.180366,1160766.40312,Noyes,901 W. Noyes Street,40400,Noyes
+-87.6659090897442,42.0083618185049,Morse,,clampToGround,No,Not ADA  Accessible,Red Line,100,1946344.119358,1165641.099061,Morse,1358 W. Morse Avenue,40100,Morse
+-87.6280212573959,41.891665200446,Grand,,clampToGround,No,ADA Accessible,Red Line,330,1903902.00527,1176288.179263,Grand/State,521 N. State Street,40330,Grand
+-87.6941111248146,41.9662099485398,Rockwell,,clampToGround,No,ADA Accessible,Brown Line,1010,1930925.255983,1158091.021614,Rockwell,4648 N. Rockwell Street,41010,Rockwell
+-87.7916021497983,41.8721079732771,Oak Park,,clampToGround,No,Not ADA  Accessible,Blue Line,180,1896451.732495,1131794.163221,Oak Park-Congress,950 S. Oak Park Avenue,40180,Oak Park
+-87.7244496427784,41.7998878194613,Pulaski,,clampToGround,Yes,ADA Accessible,Orange Line,960,1870257.601783,1150270.222375,Pulaski-Midway,5106 S. Pulaski Road,40960,Pulaski
+-87.8173177790677,41.8742573103525,Forest Park,,clampToGround,Yes,ADA Accessible,Blue Line,390,1897191.7924,1124785.607183,Forest Park,711 S. Des Plaines Avenue,40390,Forest Park
+-87.8088949350329,41.9823233694686,Harlem,,clampToGround,Yes,ADA Accessible,Blue Line (O'Hare),750,1936585.066804,1126838.698769,Harlem-O'Hare,5550 N. Harlem Avenue,40750,Harlem
+-87.6962342162001,41.8842195306884,California,,clampToGround,No,ADA Accessible,Green Line (Lake),1360,1901043.522835,1157735.615534,California-Lake,2800 W. Lake Street,41360,California
+-87.7190993021528,41.9473601015573,Addison,,clampToGround,No,ADA Accessible,Blue Line,1240,1924006.599721,1151344.5146,Addison-O'Hare,3622 W. Addison Street,41240,Addison
+-87.6840649867607,41.8046835591174,Western,,clampToGround,Yes,ADA Accessible,Orange Line,310,1872085.726712,1161268.486449,Western-Midway,4901 S. Western Avenue,40310,Western
+-87.6948229154544,41.8542796293898,California,,clampToGround,No,ADA Accessible,Pink,440,1890136.338697,1158201.073966,California-Douglas,2011 S. California Avenue,40440,California
+-87.756692014772,41.8517733090262,54th/Cermak,,clampToGround,Yes,ADA Accessible,Pink,580,1889103.780104,1141351.978526,54th/Cermak,2134 S. 54th Avenue,40580,54th/Cermak
+-87.640984216717,41.8755389040613,Clinton,,clampToGround,No,Not ADA  Accessible,Blue Line,430,1897996.84712,1172806.092092,Clinton-Congress,426 S. Clinton Street,40430,Clinton
+-87.6577340455751,41.9642541590094,Wilson,,clampToGround,No,Not ADA  Accessible,Red Line,540,1930295.534383,1168029.494071,Wilson,4920 N. Broadway Street,40540,Wilson
+-87.6856172565483,42.0639865432109,Central,,clampToGround,No,Not ADA  Accessible,"Purple Line, Evanston Express",1250,1966573.104464,1160131.387184,Central-Evanston,1022 W. Central Avenue,41250,Central
+-87.683560326389,42.0541602239534,Foster,,clampToGround,No,Not ADA  Accessible,"Purple Line, Evanston Express",520,1962996.532301,1160717.135152,Foster,900 W. Foster Street,40520,Foster
+-87.6549293921929,41.9537749464939,Sheridan,,clampToGround,No,Not ADA  Accessible,Red Line,80,1926475.826475,1168782.699064,Sheridan,3940 N. Sheridan Road,40080,Sheridan
+-87.6308860183396,41.8857369853217,Clark/Lake,,clampToGround,No,ADA Accessible,"Brown, Orange, Pink, Purple (Express), Green, Blue",380,1901735.36642,1175525.859134,Clark/Lake,100 W. Lake,40380,Clark/Lake
+-87.6314122930071,41.9039203118956,Clark/Division,,clampToGround,No,ADA Accessible,Red Line,630,1908360.200474,1175328.346174,Clark/Division,1200 N. Clark Street,40630,Clark/Division
+-87.6907295185593,42.0731527613458,Linden,,clampToGround,Yes,ADA Accessible,"Purple Line, Evanston Express",1050,1969902.898515,1158718.091054,Linden,349 W. Linden Avenue,41050,Linden
+-87.6339733602881,41.8889679328783,Merchandise Mart,,clampToGround,No,ADA Accessible,"Brown, Purple (Express)",460,1902905.856021,1174675.578173,Merchandise Mart,350 N. Wells Street,40460,Merchandise Mart
+-87.6636095599417,41.9438122552373,Southport,,clampToGround,No,ADA Accessible,Brown Line,360,1922826.818344,1166449.96255,Southport,3411 N. Southport Avenue,40360,Southport
+-87.6275960975643,41.8781527560194,Jackson,,clampToGround,No,ADA Accessible,Red Line,560,1898979.028497,1176444.434239,Jackson/State,230 S. State,40560,Jackson
+-87.8593877016713,41.983507286909,Rosemont,,clampToGround,Yes,ADA Accessible,Blue Line,820,1936936.482101,1113107.880452,Rosemont,5801 N. River Road,40820,Rosemont
+-87.6664960669022,41.9033550845535,Division,,clampToGround,No,Not ADA  Accessible,Blue Line,320,1908078.03625,1165779.323701,Division/Milwaukee,1200 N. Milwaukee Avenue,40320,Division
+-87.6310004490703,41.7805343336316,63rd,,clampToGround,No,ADA Accessible,Red Line,910,1863399.657456,1175808.13267,63rd-Dan Ryan,220 W. 63rd Street,40910,63rd
+-87.6214628110137,41.8218151955622,Indiana,,clampToGround,No,ADA Accessible,Green Line,300,1878463.561726,1178284.914497,Indiana,4003 S. Indiana Avenue,40300,Indiana
+-87.7446984001954,41.8865193525822,Cicero,,clampToGround,No,ADA Accessible,Green Line (Lake),480,1901787.326484,1144532.748065,Cicero-Lake,4800 W. Lake Street,40480,Cicero
+-87.6337399759663,41.8787232825523,Quincy/Wells,,clampToGround,No,ADA Accessible,"Brown, Orange, Pink, Purple (Express)",40,1899173.22933,1174769.559101,Quincy/Wells,220 S. Wells Street,40040,Quincy/Wells
+-87.6585299635243,41.9734533219415,Argyle,,clampToGround,No,Not ADA  Accessible,Red Line,1200,1933638.97733,1167746.828087,Argyle,1118 W. Argyle Street,41200,Argyle
+-87.6749557433323,41.954523138597,Irving Park,,clampToGround,No,ADA Accessible,Brown Line,1460,1926705.985067,1163333.209139,Irving Park-Ravenswood,1816 W. Irving Park Dr,41460,Irving Park
+-87.65945550927,41.8758856338414,Racine,,clampToGround,No,Not ADA  Accessible,Blue Line,470,1898083.157521,1167774.555959,Racine,430 S. Racine Avenue,40470,Racine
+-87.6282091445608,41.8769083394861,Library,,clampToGround,No,ADA Accessible,"Brown, Orange, Pink, Purple (Express)",850,1898524.192017,1176281.206847,Library,26 W. Van Buren Street,40850,Library
+-87.6258093500417,41.7683678649297,69th,,clampToGround,No,ADA Accessible,Red Line,990,1858977.892844,1177260.463424,69th,15 W. 69th Street,40990,69th
+-87.7379563716877,41.7866135500972,Midway,,clampToGround,Yes,ADA Accessible,Orange Line,930,1865394.754546,1146620.917027,Midway Airport,4612 W. 59th Street,40930,Midway
+-87.6481311042674,41.8469014399367,Halsted,,clampToGround,Yes,ADA Accessible,Orange Line,1130,1887545.796103,1170942.965562,Halsted-Midway,2520 S. Archer Avenue,41130,Halsted
+-87.6759740960534,41.8545148610917,Damen,,clampToGround,No,ADA Accessible,Pink,210,1890260.804873,1163335.476019,Damen,2010 S. Damen Avenue,40210,Damen
+-87.7148802641176,41.853991954008,Central Park,,clampToGround,No,ADA Accessible,Pink,780,1889991.515913,1152737.528617,Central Park,1915 S. Central Park Avenue,40780,Central Park
+-87.72432672502,41.853856830287,Pulaski,,clampToGround,No,ADA Accessible,Pink,150,1889923.883017,1150164.331558,Pulaski-Douglas,2005 S. Pulaski Road,40150,Pulaski
+-87.7332636586134,41.8537506860736,Kostner,,clampToGround,No,ADA Accessible,Pink,600,1889868.062985,1147729.863972,Kostner,2019 S. Kostner Avenue,40600,Kostner
+-87.7453420098596,41.8519247140258,Cicero,,clampToGround,No,ADA Accessible,Pink,420,1889179.920904,1144443.843873,Cicero-Douglas,2133 S. 48th Court,40420,Cicero
+-87.6309678262777,41.8532057950767,Cermak-Chinatown,,clampToGround,No,ADA Accessible,Red Line,1000,1889880.865545,1175600.577598,Cermak-Chinatown,138 W. Cermak Road,41000,Cermak-Chinatown
+-87.7472210136911,42.026243893621,Oakton-Skokie,,clampToGround,No,ADA Accessible,Yellow Line,1680,1952698.681155,1143497.614368,Oakton-Skokie,4802 W Oakton,41680,Oakton-Skokie
+-87.6521279920675,41.8855767877886,Morgan,,clampToGround,No,ADA Accessible,"Green (Lake), Pink",1510,1901630.358292,1169742.118969,Morgan,1000 W Lake St,41510,Morgan
+-87.6264023849289,41.8531150824747,Cermak-McCormick Pl,,clampToGround,No,ADA Accessible,Green Line,1690,1889858.017033,1176844.653375,Cermak-McCormick Place,12 E. Cermak Rd.,41690,Cermak-McCormick Pl
