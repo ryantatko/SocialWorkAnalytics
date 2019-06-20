@@ -165,14 +165,14 @@ executive_dashboard = html.Div([
 
             html.Iframe(id='fd_map', srcDoc= open('fd_dsrt_prototype.html', 'r').read(), width=675, height=350)
             ], 
-                style={'width': '650', 'display': 'inline-block', 'vertical-align': 'middle',
+                style={'width': '675', 'display': 'inline-block', 'vertical-align': 'middle',
                        'border':'4px #384654 solid'}
             ),
             
     html.Div([
             html.Iframe(id='chld_map', srcDoc= open('chld_cr_prototype.html', 'r').read(), width=675, height=350)
             ], 
-                style={'width': '650', 'display': 'inline-block', 'vertical-align': 'middle',
+                style={'width': '675', 'display': 'inline-block', 'vertical-align': 'middle',
                        'border':'4px #384654 solid'}
             ),
     
@@ -184,8 +184,13 @@ executive_dashboard = html.Div([
              dbc.DropdownMenuItem("Job Program Growth"),dbc.DropdownMenuItem("Mental Health Needs")],
             label="View Analyses")
             ]),
+            
+    html.Br(),
+    
+    html.Div([html.H4('NEIGHBORHOOD PROVIDERS & FUNDING')],style={'textAlign': 'center'}),
+    
     html.Div([exec_tbl], style={'display': 'inline-block', 
-             'padding':'15px'}),
+             'padding':'50px'}),
     ])
 
 

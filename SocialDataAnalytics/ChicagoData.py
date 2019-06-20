@@ -191,10 +191,17 @@ df_el = df_el[:125] #Only sample of 75 needed for map
 exec_smmry = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/WelfareData/exec_zip_summary_stats.csv'
 df_exec_smmry = pd.read_csv(filepath_or_buffer=exec_smmry, error_bad_lines=False)
 
-#Create Budget Stats
+#Create Budget Stats & Format Currency Columns
+
 df_exec_smmry['Senior Services'] = np.random.randint(0,10,df_exec_smmry.shape[0])
-df_exec_smmry['Budget'] = np.random.randint(60000,100000,df_exec_smmry.shape[0])
-df_exec_smmry['Funds Available'] = np.random.randint(10000,60000,df_exec_smmry.shape[0])
-df_exec_smmry['Projected 2020 Funding'] = np.random.randint(50000,100000,df_exec_smmry.shape[0])
+df_exec_smmry['Budget'] = np.random.randint(40,100,df_exec_smmry.shape[0])
+df_exec_smmry['Funds Available'] = np.random.randint(10,40,df_exec_smmry.shape[0])
+df_exec_smmry['2020 Funding'] = np.random.randint(40,100,df_exec_smmry.shape[0])
 
+df_exec_smmry = df_exec_smmry.applymap(str)
 
+df_exec_smmry['Budget'] = '$' + df_exec_smmry['Budget'] + 'K'
+
+df_exec_smmry['Funds Available'] = '$' + df_exec_smmry['Funds Available'] + 'K'
+
+df_exec_smmry['2020 Funding'] = '$' + df_exec_smmry['2020 Funding'] + 'K'
