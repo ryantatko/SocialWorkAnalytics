@@ -19,6 +19,8 @@ import dash_bootstrap_components as dbc
 
 IBM_LOGO = "http://www.freelogovectors.net/wp-content/uploads/2018/12/ibm-watson-logo.png"
 
+style_sheet = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/assets/bootstrap.css'
+
 search_bar = dbc.Row(
     [
         dbc.Col(dbc.Input(type="search", placeholder="Enter Address")),
@@ -35,19 +37,20 @@ search_bar = dbc.Row(
 navbar = dbc.NavbarSimple(
     children=[
         dbc.Col(html.Img(src=IBM_LOGO, height="50px")),
-        dbc.NavItem(dbc.NavLink("About", href="#")),
         dbc.DropdownMenu(
             nav=True,
             in_navbar=True,
             label="Menu",
             children=[
-                dbc.DropdownMenuItem("Analytics Dashboard"),
+                dbc.DropdownMenuItem("Case Worker Dashboard"),
+                dbc.DropdownMenuItem("Executive Dashboard"),
                 dbc.DropdownMenuItem(divider=True),
                 dbc.DropdownMenuItem("Data Sources")],
-        ),       
+        ), 
+    dbc.NavItem(dbc.NavLink("Logout", href="#")),
     dbc.Collapse(search_bar, id="navbar-collapse", navbar=True),
     ],
-    brand="CHILD WELFARE ANALYTICS DASHBOARD",
+    brand="CHILD WELFARE ANALYTICS PLATFORM",
     className='navbar navbar-expand-lg navbar-dark bg-dark',
     brand_href="#",
     sticky="top",
@@ -97,6 +100,9 @@ provider_tbl = html.Div([dash_table.DataTable(
             "current_page": 0,
             "page_size": 5,
         },
+        css=[
+        { 'selector': '.previous-page, .next-page', 'rule': 'background-color: white;' }
+        ],
     ),
     html.Div(id='datatable-interactivity-container')
     ])
@@ -104,34 +110,47 @@ provider_tbl = html.Div([dash_table.DataTable(
 #~~~~~~~~~~~~~~~~~~~~~~~~~CREATE APP LAYOUT~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
         
 
-style_sheet = '/Users/rwtatko@us.ibm.com/Documents/Welfare Analytics/assets/bootstrap.css'
-
 app = dash.Dash(__name__, external_style_sheets=style_sheet)
 
 app.layout = html.Div([
-            
+
     html.Div([navbar]),
         
     html.Div(
-    [dbc.Button("Provider Information", color="secondary", className="mr-1")]
+    [dbc.Button("Case Worker Dashboard", color="secondary", className="mr-1")]
     ),
       
-    html.Div([provider_tbl], style={'width': '50%','display': 'inline-block', 'vertical-align': 'middle'}),
+    html.Div([provider_tbl], style={'width': '50%','display': 'inline-block', 
+             'padding':'5px', 'vertical-align': 'middle'}),
 
     html.Div([
     html.Iframe(id='map', srcDoc= open('prototype.html', 'r').read(), width=700, height=600)
-    ], style={'width': '50%', 'display': 'inline-block', 'vertical-align': 'middle', 'border':'4px #384654 solid'})
-
+    ], style={'width': '50%', 'display': 'inline-block', 'vertical-align': 'middle', 
+            'border':'4px #384654 solid'})
+      
 ])
     
 
 #~~~~~~~~~~~~~DEFINE APPLICATION CALLBACK FOR TABLES~~~~~~~~~~~~~~~~~~~~~~~~~~#
+"""
+@app.callback(dash.dependencies.Output('page-content', 'children'),
+              [dash.dependencies.Input('url', 'pathname')])
 
+def display_page(pathname):
+    if pathname == '/page-1':
+        return page_1_layout
+    elif pathname == '/page-2':
+        return page_2_layout
+    else:
+        return index_page
+"""
 
 @app.callback(
     Output('datatable-interactivity-container', "children"),
     [Input('datatable-interactivity', "derived_virtual_data"),
-     Input('datatable-interactivity', "derived_virtual_selected_rows")])
+     Input('datatable-interactivity', "derived_virtual_selected_rows")]
+    )
+    
 def update_graphs(rows, derived_virtual_selected_rows):
     
     if derived_virtual_selected_rows is None:
@@ -139,11 +158,12 @@ def update_graphs(rows, derived_virtual_selected_rows):
 
     dff = df_main if rows is None else pd.DataFrame(rows)
 
-    colors = ['#D9AE00' if i in derived_virtual_selected_rows else '#0074D9'
+    colors = ['#D9AE00' if i in derived_virtual_selected_rows else '#005fb2'
               for i in range(len(dff))]
 
     return [
         dcc.Graph(
+            style={'font_family': 'verdana'},
             id=column,
             figure={
                 "data": [

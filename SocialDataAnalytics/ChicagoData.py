@@ -20,7 +20,7 @@ df_main = pd.read_csv(filepath_or_buffer=path, error_bad_lines=False)
 df_main = df_main[df_main.Latitude.notnull()]
  
 df_main = df_main[['Agency','Site Name','Division', 'Provider', 'Age Served', 'Gender', 'Yrs in Practice', 
-                   'Expertise 1', 'Transportation Assistance', 'Address', 'Phone Number','Latitude','Longitude']]
+                   'Expertise 1', 'Transportation Assistance', 'Address', 'Phone Number','Latitude','Longitude','ZIP','Community Area']]
 
 age_list = ['10 and Under', '11 to 15 Years', '16 and Over']
 df_main['Age Served'] = df_main['Age Served'].fillna(pd.Series(np.random.choice(age_list, size=len(df_main.index))))
@@ -158,3 +158,43 @@ df_rail = pd.read_csv(filepath_or_buffer=rail_path, error_bad_lines=False)
 #Clean Railway Data
 df_rail = df_rail[df_rail.X.notnull()]
 df_rail = df_rail[df_rail.Y.notnull()]
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~Executive Dashboard Data Setup~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#Load Pantry Data
+pantry_path = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/WelfareData/Food_Pantries.csv'
+df_pantry = pd.read_csv(filepath_or_buffer=pantry_path, error_bad_lines=False)
+
+#Load Lunch Data
+lunch_path = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/WelfareData/School_Lunch_Data.csv'
+df_lunch = pd.read_csv(filepath_or_buffer=lunch_path, error_bad_lines=False)
+
+
+#Load YoungMom Birth Data
+ymbirth_path = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/WelfareData/YoungMomBirths.csv'
+df_ymbirth = pd.read_csv(filepath_or_buffer=ymbirth_path, error_bad_lines=False)
+
+#Add Random ZIP Code Info
+zip_list = list(df_main['ZIP'].unique())
+df_ymbirth['ZIP'] = pd.Series(np.random.choice(zip_list, size=len(df_ymbirth.index)))
+df_ymbirth = df_ymbirth[['Community Area Number','Community Area Name', 'ZIP', 'Teen Births 2007', 'Teen Births 2008', 'Teen Births 2009']]
+
+#Load Early Learning Program Data
+el_path = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/WelfareData/EL_Programs.csv'
+df_el = pd.read_csv(filepath_or_buffer=el_path, error_bad_lines=False)
+
+df_el = df_el[~df_el['Site Name'].str.contains('Elementary School')]
+df_el = df_el[:125] #Only sample of 75 needed for map
+
+#Load Executive Summary Data Table
+exec_smmry = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/WelfareData/exec_zip_summary_stats.csv'
+df_exec_smmry = pd.read_csv(filepath_or_buffer=exec_smmry, error_bad_lines=False)
+
+#Create Budget Stats
+df_exec_smmry['Senior Services'] = np.random.randint(0,10,df_exec_smmry.shape[0])
+df_exec_smmry['Budget'] = np.random.randint(60000,100000,df_exec_smmry.shape[0])
+df_exec_smmry['Funds Available'] = np.random.randint(10000,60000,df_exec_smmry.shape[0])
+df_exec_smmry['Projected 2020 Funding'] = np.random.randint(50000,100000,df_exec_smmry.shape[0])
+
+

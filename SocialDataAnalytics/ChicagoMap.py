@@ -9,18 +9,10 @@ Created on Mon Jun 17 19:11:28 2019
 import ChicagoData
 import pandas as pd
 import geopandas as gpd
-import seaborn
-import pip
-import subprocess
-import sys
-import matplotlib as plt
 
 import folium
-import leaflet
-from folium.plugins import HeatMap
+#import leaflet
 from folium.plugins import MarkerCluster
-from folium.plugins import Search
-import geopandas as gpd
 
 shp_path = '/Users/rwtatko@us.ibm.com/SocialDataAnalytics/WelfareData/CTA_RailLines/CTA_RailLines.shp'
 
